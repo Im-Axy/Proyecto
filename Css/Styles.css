@@ -1,0 +1,415 @@
+body {
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Logo-Caffe{
+
+    height: auto;
+    width: 100px;
+}
+
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2E2B2B;
+    position: relative;
+    border-radius: 15px;
+}
+
+
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    display: block;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.carousel {
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden;
+    margin-top:20px ;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .introduccion {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f1ed;
+    color: #4a2c2a;
+}
+
+.introduccion h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.introduccion p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduccion .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a2c2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.introduccion .btn:hover {
+    background-color: #8b4513;
+}
+.values {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.values h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a2c2a;
+}
+
+.value-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f3f1ed;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f1ed;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a2c2a;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a2c2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.product-card .btn:hover {
+    background-color: #8b4513;
+    
+}
+.product-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a2c2a;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #f3f1ed;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.benefits {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f3f1ed;
+}
+
+.benefits h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a2c2a;
+}
+
+.benefit-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.benefit-card p {
+    font-size: 1rem;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:   #2E2B2B;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .footer-section {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  @media (max-width: 500px){
+    header {
+        height: 45px;
+    }
+    
+    .navegacion {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .navegacion img.Logo-Caffe {
+        max-width: 80px;
+    }
+
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px; 
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        background-color: #2E2B2B;
+        z-index: 100;
+    }
+
+
+    .nav-links.active {
+        display: block;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        border-top: 1px solid #fff;
+    }
+   
+    .carousel{
+        margin-top: 100px;
+    }
+
+
+    .product-cards, .value-cards, .testimonial-cards, .benefit-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card, .card, .testimonial-card, .benefit-card {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-logo{
+        margin: 0 auto;
+    }
+    
+    .footer-section {
+        width: 100%; 
+        margin-bottom: 10px; 
+        text-align: center; 
+    }
+}
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caffè & Co| Inicio</title>
+    <link href="Css/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <img class="Logo-Caffe"     src="images/Logo-Caffes.svg" alt="" />
+            <div class="menu-icon" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <path d="M0 7h30v4H0zm0 7h30v4H0zm0 7h30v4H0z" fill="#fff"/>
+                </svg>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a class="nav-link" href="Index.html">Inicio</a>
+                <a class="nav-link" href="Producto.html">Producto</a>
+                <a class="nav-link" href="Quienes-somos.html">Quienes Somos</a>
+                <a class="nav-link" href="Contactos.html">Contactos</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="carousel-container">
+          <img src="Images/Taza1.jpg" alt="" class="carousel-item">
+          <img src="Images/Taza2.jpg" alt="" class="carousel-item">
+          <img src="Images/Taza3.jpg" alt="" class="carousel-item">
+        </div>
+        <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+      </section>
+
+      <section class="introduccion">
+        <h1>Disfruta un café artesanal</h1>
+        <p>
+            En <strong>Caffè & Co.</strong>, creemos en la magia de una taza de café. Desde granos seleccionados cuidadosamente hasta 
+            el momento en que disfrutas cada sorbo, te ofrecemos una experiencia única que conecta calidad, pasión y sabor.
+        </p>
+        <a href="Producto.html" class="btn">Explorar Productos</a>
+    </section>
+
+    <section class="values">
+        <h2>Nuestros valores</h2>
+        <div class="value-cards">
+            <div class="card">
+                <h3>Calidad</h3>
+                <p>Seleccionamos los mejores granos para garantizar un sabor excepcional en cada taza.</p>
+            </div>
+            <div class="card">
+                <h3>Sostenibilidad</h3>
+                <p>Trabajamos con productores responsables para proteger el medio ambiente.</p>
+            </div>
+            <div class="card">
+                <h3>Pasión</h3>
+                <p>Cada café que ofrecemos refleja nuestra dedicación y amor por lo que hacemos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products">
+        <h2>Productos Destacados</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="images/Cafe-espresso.jpg" alt="Café Espresso" />
+                <h3>Café Espresso</h3>
+                <p>Un espresso con un sabor fuerte y lleno de energía. Perfecto para comenzar el día.</p>
+                <a href="Producto.html" class="btn">Ver más</a>
+            </div>
+            <div class="product-card">
+                <img src="images/CafeLatte.jpg" alt="Café Latte" />
+                <h3>Café Latte</h3>
+                <p>Un latte cremoso que te hará sentir en una cafetería de lujo.</p>
+                <a href="Producto.html" class="btn">Ver más</a>
+            </div>
+            <div class="product-card">
+                <img src="images/Cafe-Cappuccino.jpg" alt="Café Capuccino" />
+                <h3>Café Capuccino</h3>
+                <p>Una mezcla perfecta de espresso, leche espumosa y un toque de cacao.</p>
+                <a href="Producto.html" class="btn">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"¡El mejor café que he probado! El sabor es increíble y siempre llega fresco. ¡Lo recomiendo a todos!"</p>
+                <p><strong>Laura G.</strong></p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Cada taza me transporta a una cafetería en Italia. ¡Absolutamente delicioso!"</p>
+                <p><strong>José M.</strong></p>
+            </div>
+            <div class="testimonial-card">
+                <p>"El café espresso de Caffè & Co. es mi favorito. Nunca falta en mi casa."</p>
+                <p><strong>Ana P.</strong></p>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <h2>¿Por qué elegir Caffè & Co.?</h2>
+        <div class="benefit-cards">
+            <div class="benefit-card">
+                <h3>Granos Seleccionados</h3>
+                <p>Solo seleccionamos los mejores granos de café de todo el mundo para garantizarte la mejor calidad.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Entrega Rápida</h3>
+                <p>Disfruta de nuestro café en la comodidad de tu hogar con entregas rápidas y seguras.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Compromiso con el Medio Ambiente</h3>
+                <p>Apoyamos prácticas sostenibles y trabajamos con productores que cuidan el planeta.</p>
+            </div>
+        </div>
+    </section>
+            
+    
+      
+
+
+    <footer class="footer">
+        <div class="footer-section">
+            <img src="images/Logo-Caffes.svg" alt="" class="footer-logo">
+            <p class="footer-text">Caffè & Co. All Rights Reserved. </p>
+        </div>
+        <div class="footer-section">
+            <div class="footer-title">Explorar</div>
+            <a href="#" class="footer-link">Inicio</a>
+            <a href="#" class="footer-link">Producto</a>
+            <a href="#" class="footer-link">Quienes Somos</a>
+            <a href="Contactos.html" class="footer-link">Contactos</a>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer-title">Siguenos</div>
+            <a href="#" class="footer-link">Instagram</a>
+            <a href="#" class="footer-link">Twitter</a>
+            <a href="#" class="footer-link">LinkedIn</a>
+            <p>info@caffeandco.com</p>
+        </div>
+    </footer>
+      
+    <script src="Js/Script.js"> </script>
+</body>
+</html>
